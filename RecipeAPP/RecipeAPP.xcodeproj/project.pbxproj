@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		975E09092A889C640067541F /* RecipeAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E09082A889C640067541F /* RecipeAPPApp.swift */; };
 		975E090B2A889C640067541F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E090A2A889C640067541F /* Persistence.swift */; };
-		975E090E2A889C640067541F /* RecipeAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 975E090C2A889C640067541F /* RecipeAPP.xcdatamodeld */; };
 		975E09102A889C640067541F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E090F2A889C640067541F /* ContentView.swift */; };
 		975E09122A889C660067541F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975E09112A889C660067541F /* Assets.xcassets */; };
 		975E09162A889C660067541F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975E09152A889C660067541F /* Preview Assets.xcassets */; };
@@ -19,7 +18,6 @@
 		975E09052A889C640067541F /* RecipeAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975E09082A889C640067541F /* RecipeAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAPPApp.swift; sourceTree = "<group>"; };
 		975E090A2A889C640067541F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		975E090D2A889C640067541F /* RecipeAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipeAPP.xcdatamodel; sourceTree = "<group>"; };
 		975E090F2A889C640067541F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		975E09112A889C660067541F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		975E09132A889C660067541F /* RecipeAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RecipeAPP.entitlements; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				975E090F2A889C640067541F /* ContentView.swift */,
 				975E09112A889C660067541F /* Assets.xcassets */,
 				975E09132A889C660067541F /* RecipeAPP.entitlements */,
-				975E090C2A889C640067541F /* RecipeAPP.xcdatamodeld */,
 				975E09142A889C660067541F /* Preview Content */,
 			);
 			path = RecipeAPP;
@@ -146,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				975E09092A889C640067541F /* RecipeAPPApp.swift in Sources */,
-				975E090E2A889C640067541F /* RecipeAPP.xcdatamodeld in Sources */,
 				975E09102A889C640067541F /* ContentView.swift in Sources */,
 				975E090B2A889C640067541F /* Persistence.swift in Sources */,
 			);
@@ -362,19 +358,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		975E090C2A889C640067541F /* RecipeAPP.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				975E090D2A889C640067541F /* RecipeAPP.xcdatamodel */,
-			);
-			currentVersion = 975E090D2A889C640067541F /* RecipeAPP.xcdatamodel */;
-			path = RecipeAPP.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 975E08FD2A889C640067541F /* Project object */;
 }
